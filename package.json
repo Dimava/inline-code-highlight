@@ -1,6 +1,6 @@
 {
 	"name": "inline-code-highlight",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Highlight inline `'md **code**` blocks as well as you do the ```md **big**``` ones",
 	"main": "main.js",
 	"scripts": {

@@ -1,7 +1,7 @@
 {
 	"id": "inline-code-highlight",
 	"name": "InlineCodeHighlight",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Highlight inline `'md **code**` blocks as well as you do the ```md **big**``` ones",
 	"author": "Dimava",

@@ -1,4 +1,4 @@
-import { Plugin } from "obsidian";
+import { Plugin, loadPrism } from "obsidian";
 
 export default class InlineCodeHighlight extends Plugin {
   async onload() {
@@ -16,7 +16,7 @@ export default class InlineCodeHighlight extends Plugin {
 
         cb.classList.add(`lang-${lang}`, 'plugin-inline-code-highlight');
         cb.innerText = code;
-        window.Prism?.highlightElement(cb);
+        loadPrism().then((Prism: typeof window.Prism) => Prism.highlightElement(cb))
       }
     });
   }
